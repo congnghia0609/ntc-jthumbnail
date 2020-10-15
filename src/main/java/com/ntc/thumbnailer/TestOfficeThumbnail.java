@@ -58,7 +58,7 @@ public class TestOfficeThumbnail {
             try {
                 this.thumbnailer = new ThumbnailerManager();
 
-                if (classExists("com.inspilab.thumbnailer.thumbnailers.NativeImageThumbnailer"))
+                if (classExists("com.ntc.thumbnailer.thumbnailers.NativeImageThumbnailer"))
                     thumbnailer.registerThumbnailer(new NativeImageThumbnailer());
 
                 thumbnailer.registerThumbnailer(new OpenOfficeThumbnailer());
@@ -153,7 +153,7 @@ public class TestOfficeThumbnail {
     
     protected static void loadExistingThumbnailers(ThumbnailerManager thumbnailer) {
 
-		if (classExists("com.inspilab.thumbnailer.thumbnailers.NativeImageThumbnailer"))
+		if (classExists("com.ntc.thumbnailer.thumbnailers.NativeImageThumbnailer"))
 			thumbnailer.registerThumbnailer(new NativeImageThumbnailer());
 
 		thumbnailer.registerThumbnailer(new OpenOfficeThumbnailer());
@@ -209,7 +209,7 @@ public class TestOfficeThumbnail {
             try {
                 this.thumbnailer = new ThumbnailerManager();
 
-                if (classExists("com.inspilab.thumbnailer.thumbnailers.NativeImageThumbnailer"))
+                if (classExists("com.ntc.thumbnailer.thumbnailers.NativeImageThumbnailer"))
                     thumbnailer.registerThumbnailer(new NativeImageThumbnailer());
 
                 thumbnailer.registerThumbnailer(new OpenOfficeThumbnailer());
@@ -295,7 +295,7 @@ public class TestOfficeThumbnail {
         try {
             ThumbnailerManager thumbnailer = new ThumbnailerManager();
 
-            if (classExists("com.inspilab.thumbnailer.thumbnailers.NativeImageThumbnailer"))
+            if (classExists("com.ntc.thumbnailer.thumbnailers.NativeImageThumbnailer"))
                 thumbnailer.registerThumbnailer(new NativeImageThumbnailer());
 
             thumbnailer.registerThumbnailer(new OpenOfficeThumbnailer());
@@ -343,7 +343,7 @@ public class TestOfficeThumbnail {
         try {
             ThumbnailerManager thumbnailer = new ThumbnailerManager();
 
-            if (classExists("com.inspilab.thumbnailer.thumbnailers.NativeImageThumbnailer"))
+            if (classExists("com.ntc.thumbnailer.thumbnailers.NativeImageThumbnailer"))
                 thumbnailer.registerThumbnailer(new NativeImageThumbnailer());
 
             thumbnailer.registerThumbnailer(new OpenOfficeThumbnailer());

@@ -39,7 +39,6 @@ public class MainApp {
         cq.add(new ConvertPDFWorker());
         
         cq.start();
-        
     }
 
 }
