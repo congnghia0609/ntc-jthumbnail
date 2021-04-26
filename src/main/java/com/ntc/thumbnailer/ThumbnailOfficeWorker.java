@@ -53,7 +53,7 @@ public class ThumbnailOfficeWorker extends ConsumerRBProcess {
         try {
             this.thumbnailer = new ThumbnailerManager();
 
-            if (classExists("com.inspilab.thumbnailer.thumbnailers.NativeImageThumbnailer")){
+            if (classExists("com.ntc.thumbnailer.thumbnailers.NativeImageThumbnailer")){
                 thumbnailer.registerThumbnailer(new NativeImageThumbnailer());
             }
 
